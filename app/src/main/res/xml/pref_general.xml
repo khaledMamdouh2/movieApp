@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference android:title="Sort Type"
+        android:key="movie-type"
+        android:defaultValue="popular"
+        android:entryValues="@array/values_arr"
+        android:entries="@array/types_arr"></ListPreference>
+</PreferenceScreen>
